@@ -72,9 +72,6 @@ h3 {
     font-weight: 600;
     color: #033048;
 }
-h3 {
-
-}
 
 ul {
   list-style-type: square;
@@ -161,11 +158,13 @@ footer {
  background-color: #f9e42e;
 }
 .testimonial {
-    font-style: italic;
-    font-weight: 100;
-    font-size: 18px;
-    padding: 50px 0px 50px 0px;
-      color: #606161;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 18px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px 0px 50px 0px;
+  color: #606161;
 }
 .button2 {
  border-radius: 5px;
