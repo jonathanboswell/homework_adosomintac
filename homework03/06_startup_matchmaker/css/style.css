@@ -1,0 +1,105 @@
+header {
+	height: 100px;
+	background-color: #121212;
+}
+h1 {
+	color: yellow;
+	font-family: "Times New Roman", Times, serif;
+	margin-top: 0px;
+	padding: 10px 0px 0px 200px;
+	font-weight: bold;
+}
+h3 {
+	color: black;
+	font-size: 32px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+nav {
+	padding-left: 700px;
+	font-size: 20px;
+}
+
+footer {
+	height: 50px;
+	padding: 17px;
+	color: white;
+	background-color: #121212;
+}
+span {
+	border-bottom: 2px solid yellow;
+}
+em {
+	text-decoration: line-through;
+	color: #606161;
+}
+blockquote {
+	padding-top: 25px;
+	font-size: 32px;
+}
+#container {
+	width: 100%;
+ 	margin: auto;
+  	text-align: center;
+}
+#teaser {
+	height: 100px;
+	border-top: 5px solid yellow;
+	background-color: gray;
+	color: black;
+	text-align: center;
+	font-family: 'Sansita One', cursive;
+}
+#banner {
+	height: 750px;
+	background: url(../images/coworking.jpg) no-repeat center;
+	background-size: cover;
+	background-color: black;
+}
+#match {
+	width: 400px;
+	height: 500px;
+	box-shadow: 2px 2px 2px #888888;
+	margin-top: 50px;
+	padding: 20px;
+	background-color: rgba(255,255,255,.7);
+}
+.pMatch {
+	font-size: 24px;
+	padding: 20px 30px 20px 30px;
+	text-align: left;
+}
+#lowerColumn {
+	margin: 0 auto;
+	padding: 40px 170px 40px 170px;
+}
+
+.find {
+	text-transform: uppercase;
+	font-family: Impact;
+	font-size: 24px;
+}
+.article {
+	text-align: left;
+	font-size: 18px;
+	width: 350px;
+	margin: 0px 10px 0px 20px;
+}
+.borderLine {
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+
+}
+.btn {
+	color: black;
+	font-family: impact;
+	width:200px;
+}
+.btn-xl {
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+   	box-shadow: 2px 2px 2px #888888;
+    width:300px;
+}

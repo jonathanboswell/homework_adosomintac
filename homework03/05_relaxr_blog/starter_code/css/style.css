@@ -1,0 +1,207 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f0efef;
+  font-family: 'Open Sans', sans-serif;
+}
+#innerContainer {
+  background-color: #f0efef;
+}
+#leftColumn {
+  float: left;
+  width: 700px;
+  padding: 40px;
+  margin-left: 300px;
+}
+#rightColumn {
+  float: left;
+  width: 240px;
+  padding: 40px 20px 20px 20px;
+  color: #033048;
+}
+#signUp {
+  background-color: #f9e42e;
+  height: 100px;
+  padding: 30px;
+}
+#categories {
+  display: block;
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+header {
+  overflow:hidden;
+  display:block;
+  max-width:100%;
+  margin: 0;
+  background-color: #033048;
+  height: 100px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 40px;
+  color: white;
+  font-weight: 800;
+  margin: 20px 0px 0px 340px ;
+
+}
+nav {
+  margin-right: 300px;
+  padding-top: 10px;
+  list-style: none;
+  float:right;
+  display:inline;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 800;
+  padding: 10px 0px 10px 0px;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #033048;
+  padding: 20px 0 20px 0;
+}
+footer {
+  text-align: center;
+  height: 250px;
+  background-color: #121212;
+  color: white;
+}
+blockquote {
+  padding-top: 40px;
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.description {
+  font-size: 18px;
+  font-weight: 100;
+  color: #606161;
+  padding-top: 20px;
+}
+.readMore {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #033048;
+}
+.divider {
+  border-bottom: 1px solid black;
+  padding: 30px 0px 30px 0px;
+  text-align: right;
+}
+.dropCap {
+  float: left; 
+  font-size: 75px; 
+  font-weight: 600;
+  line-height: 60px; 
+  padding: 4px 8px 0px 3px; 
+}
+.sideContents {
+  font-size: 18px;
+}
+.navList {
+  position:relative;
+  display:inline-block;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.navRef {
+  position: relative;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  color: #f9e42e;
+}
+.button {
+ border-radius: 5px;
+ font-weight: 800;
+ padding: 12px 0;
+ width: 200px;
+ font-size: 12px;
+ text-align: center;
+ display: block;;
+ margin: 0 auto;
+ color: white;
+ text-decoration: none;
+ background-color: #033048;
+}
+.icons {
+  padding: 10px;
+}
+.footername {
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 28px;
+  padding: 50px 0px 50px 0px;
+}
