@@ -1,0 +1,78 @@
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     background: url(../images/bg.jpg) no-repeat center top rgb(134,141,157);
+     background-size: cover;
+     background-color: #121212;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+#movie-titles {
+	height: 100px;
+	border: 1px solid white;
+	margin: 20px;
+	color: white;
+	padding: 20px;
+}
+#img {
+	height: 400px;
+	margin: 100px 0px 20px 500px;
+}
+#about {
+	height: 400px;
+	margin: 100px 0px 0px 50px;
+	color: white;
+	width: 30%;
+}
+.romance {
+	background-image: url(../images/note.jpg);
+	background-repeat: no-repeat;
+}
+.horror {
+	background-image: url(../images/titanic.jpg);
+}
+.comedy {
+	background-image: url(../images/walk.jpg);
+}
